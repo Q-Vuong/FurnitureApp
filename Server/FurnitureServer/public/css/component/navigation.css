@@ -1,0 +1,81 @@
+#navbarColumn {
+    transition: width 0.5s ease-in-out;
+    position: relative;
+}
+
+#navbarColumn.small-nav {
+    width: 5%;
+    /* Kích thước nhỏ hơn */
+}
+
+#navbarColumn {
+    position: absolute;
+    /* Đặt vị trí tuyệt đối */
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color: white;
+    box-shadow: 0px 0px 10px 10px rgba(207, 207, 207, 0.5);
+    /* Bóng với độ mờ và màu sắc */
+    /* Các giá trị đại diện cho (horizontal offset, vertical offset, blur radius, spread radius, color) */
+}
+
+#contentColumn.max-with {
+    width: calc(100% - 5.5vw);
+    /* Chiếm hết chiều rộng trừ đi chiều rộng của navbar */
+    margin-left: 5.5vw;
+    /* Margin trái bằng chiều rộng của navbar */
+}
+
+#contentColumn {
+    width: calc(100% - 17vw);
+    /* Chiếm hết chiều rộng trừ đi chiều rộng của navbar */
+    margin-left: 17vw;
+    /* Margin trái bằng chiều rộng của navbar */
+    z-index: 0;
+    padding: 0;
+}
+
+.img-icon {
+    width: 20px;
+    margin: 5px;
+}
+
+.hidden-link {
+    display: none;
+}
+
+.nav-item {
+    display: flex;
+    /* Sử dụng flexbox */
+    align-items: center;
+    /* Căn chỉnh các phần tử vào trung tâm theo chiều dọc */
+    margin-bottom: 0;
+    /* Loại bỏ margin dưới */
+    padding: 10px;
+}
+
+.nav-link {
+    flex-shrink: 0;
+    /* Ngăn chặn phần tử co lại */
+    padding: 0;
+    color: #AFAFAF;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.company-img {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    margin: 0;
+}
+
+#toggleNavbar {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    margin-right: 15px;
+}
+
+

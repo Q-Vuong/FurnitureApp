@@ -1,0 +1,46 @@
+.left-views {
+    background-image: url('/images/auth/img_login.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /*căn giữa theo chiều dọc*/
+    align-items: center; /*căn giữa theo chiều ngang*/
+  }
+
+  .wellcome-bg {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 35vw;
+    height: 310px;
+    border-radius: 20px;
+    padding: 10px;
+  }
+
+  .title {
+    text-align: center;
+    margin-top: 150px;
+  }
+
+  .title h2 {
+    font-weight: bold;
+    color: black;
+  }
+
+  .title p {
+    color: #979797;
+  }
+
+  .wellcome-text {
+    color: #9A9A9A;
+    font-size: 2em;
+    text-align: left;
+    margin: 5vh;
+    font-weight: bold;
+  }
+
+  .wellcome-remind {
+    color: #9A9A9A;
+    font-size: 1em;
+    text-align: left;
+    margin: 5vh;
+  }
+  

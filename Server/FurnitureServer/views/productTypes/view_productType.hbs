@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="/css/component/navigation.css" rel="stylesheet">
+  <link href="/css/component/breadcrumb.css" rel="stylesheet">
+  <link href="/css/pages/banner.css" rel="stylesheet">
+  <link href="/css/common/search-form.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="container">
+    {{#if successMessage}}
+    <div class="alert alert-success" role="alert">
+      {{successMessage}}
+    </div>
+    {{/if}}
+    {{#if dangerMessage}}
+    <div class="alert alert-danger" role="alert">
+      {{dangerMessage}}
+    </div>
+    {{/if}}
+
+    <div id="view-banner" style="display: block;">
+
+      <div id="titles">
+        <h5 class="mb-4">Danh sách loại nội thất</h5>
+        <form id="searchForm">
+          <input type="text" id="searchInput" placeholder="Nhập từ khóa..." required>
+          <input type="image" src="/icons/search.png" alt="Tìm kiếm" id="searchButton">
+        </form>
+
+      </div>
+      <hr class="mb-4">
+      <a href="/productType/add-page" class="btn btn-primary eLink float-end mb-4">Thêm Loại nội thất</a>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th class="col-1">STT</th>
+            <th class="col-3">Tên danh mục</th>
+            <th class="col-4">Ảnh</th>
+            <th class="col-2">Số lượng sản phẩm</th>
+            <th class="col-2">Tuỳ chọn</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{#each productTypes}}
+          <tr>
+            <td>{{@index}}</td>
+            <td>{{this.nameType}}</td>
+            <td><img src="{{this.imgPr_T}}" alt="" style="max-width: 100px;"></td>
+            <td>{{this.count}}</td> <!-- Hiển thị số lượng sản phẩm -->
+            <td>
+              <a href="productType/update/{{this._id}}" class="btn btn-warning btn-sm eLink">Sửa</a>
+              <a href="productType/delete/{{this._id}}" onclick="return confirmAction(event);"
+                class="btn btn-danger btn-sm">Xoá</a>
+            </td>
+          </tr>
+          {{/each}}
+
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+  <script src="/js/productTypes/loadPage_proT.js"></script>
+
+</body>
+
+</html>

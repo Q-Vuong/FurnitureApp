@@ -1,0 +1,34 @@
+.mb-4 input {
+    background-color: #EDEDED;
+    border-radius: 10px;
+    height: 40px;
+  }
+
+  form {
+    margin: 100px;
+
+  }
+  .form-control {
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    /* Điều chỉnh vị trí của biểu tượng */
+    padding-left: 40px;
+    /* Để không bị che phủ bởi biểu tượng */
+    background-size: 20px 20px;
+  }
+
+  .user-icon {
+    background-image: url('/icons/user.png');
+  }
+
+  .password-icon {
+    background-image: url('/icons/padlock.png');
+  }
+
+  .btn-auth {
+    height: 45px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 5vh;
+    font-weight: bold;
+  }

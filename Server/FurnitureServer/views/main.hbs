@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/handlebars/dist/handlebars.min.js"></script>
+    <link href="/css/component/navigation.css" rel="stylesheet">
+    <link href="/css/component/header.css" rel="stylesheet">
+    <link href="/css/component/breadcrumb.css" rel="stylesheet">
+    <link href="/css/pages/banner.css" rel="stylesheet">
+    <style>
+        #content {
+            overflow-y: auto;
+            /* Thêm thanh cuộn dọc khi cần thiết */
+            max-height: 88.1vh;
+            min-height: 88.1vh;
+            /* Thiết lập chiều cao tối đa */
+            max-width: 100vw;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            background-color: #F1F1F1;
+        }
+
+        body {
+            overflow-y: hidden;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Navbar vertical ở bên trái -->
+            <div class="col-md-2 " id="navbarColumn" onmouseenter="expandNav()" onmouseleave="collapseNav()">
+                <nav class="navbar navbar-light">
+                    <ul class="navbar-nav">
+                        <div class="mb-3">
+                            <img src="/images/auth/img_login.jpg" class="company-img myLink" alt="">
+
+                        </div>
+                        <div class="mb-5">
+                            <img src="/icons/left-arrow.png" id="toggleNavbar" class="img-btn float-end"
+                                alt="Toggle Navbar">
+                        </div>
+                        <li class="nav-item mb-2">
+                            <img src="/icons/home.png" class="float-start img-icon">
+                            <a class="nav-link myLink" href="/statistical/view">Thống kê</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <img src="/icons/banner.png" class="float-start img-icon">
+                            <a class="nav-link myLink" href="/banner/view">Banner</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <img src="/icons/coupon.png" class="float-start img-icon">
+                            <a class="nav-link myLink" href="discount/view">Mã giảm giá</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <img src="/icons/notification.png" class="float-start img-icon">
+                            <a class="nav-link myLink" href="notification/view">Thông báo</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <img src="/icons/categorization.png" class="float-start img-icon">
+                            <a class="nav-link myLink" href="/productType/view">Danh mục nội thất</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <img src="/icons/chair.png" class="float-start img-icon">
+                            <a class="nav-link myLink" href="/product/view">Nội thất</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <img src="/icons/home.png" class="float-start img-icon">
+                            <a class="nav-link myLink" href="/order/view">Đơn hàng</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <img src="/icons/customer.png" class="float-start img-icon">
+                            <a class="nav-link myLink" href="/customer/view">Khách hàng</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <img src="/icons/acc.png" class="float-start img-icon">
+                            <a class="nav-link myLink" href="admin/view">Tài khoản</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- Nội dung bên phải -->
+
+            <div class="col-md-10" id="contentColumn">
+                <!-- Phần header -->
+                <header class="header">
+                    <p>Xin chào,</p>
+                    <div>{{fullname}}</div>
+                </header>
+                <hr>
+                <div id="breadcrumb-component">
+                    <div id="breadcrumb"></div>
+                    <div>|</div>
+                    <div>
+                        <img src="/icons/home.png" id="" class="img-btn img-icon" alt="">
+                    </div>
+
+                </div>
+
+
+                <article id="content">
+                    <!-- Nội dung sẽ được thay đổi dựa vào tùy chọn trong navbar -->
+                </article>
+            </div>
+        </div>
+    </div>
+
+    <!-- Đường dẫn tới các file JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bao gồm jQuery từ CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Bao gồm Bootstrap JS từ CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/breadcrumb.js"></script>
+    <script src="/js/main.js"></script>
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,29 @@
+.header {
+    background-color: #F1F1F1;
+    margin: 0;
+    max-height: 60px;
+    display: flex;
+    /* Sử dụng flexbox */
+    align-items: center;
+    /* Căn giữa theo chiều dọc */
+    justify-content: flex-end;
+    /* Căn phải */
+    padding: 10px;
+}
+
+
+.header div {
+    margin: 0;
+    /* Loại bỏ margin mặc định */
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #6f6f6f;
+}
+
+.header p {
+    margin-right: 10px;
+    margin: 0;
+    color: #AFAFAF;
+    font-size: 13px;
+}

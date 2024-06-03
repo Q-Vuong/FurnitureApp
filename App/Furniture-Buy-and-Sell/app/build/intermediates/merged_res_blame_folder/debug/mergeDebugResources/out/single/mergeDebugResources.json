@@ -1,0 +1,386 @@
+[
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/drawable_ic_back.png.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/drawable/ic_back.png"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/layout_dialogfragment_alert.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/layout/dialogfragment_alert.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/layout_item_featured_product.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/layout/item_featured_product.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/drawable_avatar.png.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/drawable/avatar.png"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/layout_fragment_enter_o_t_p.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/layout/fragment_enter_o_t_p.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/layout_fragment_notification.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/layout/fragment_notification.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/drawable_ic_notification.png.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/drawable/ic_notification.png"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/font_robotocondensed_bold.ttf.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/font/robotocondensed_bold.ttf"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/layout_fragment_register.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/layout/fragment_register.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/layout_fragment_change_new_pass.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/layout/fragment_change_new_pass.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.furniturebuyandsell.app-debug-41:/layout_fragment_buy_by_product_type.xml.flat",
+        "source": "com.example.furniturebuyandsell.app-main-43:/layout/fragment_buy_by_product_type.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/layout_fragment_change_pass.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/layout/fragment_change_pass.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/drawable_ic_love.png.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/drawable/ic_love.png"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/layout_dialog_choose_quantity.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/layout/dialog_choose_quantity.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/layout_dialogfragment_address.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/layout/dialogfragment_address.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/layout_dialogfragment_favorite.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/layout/dialogfragment_favorite.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/drawable_ic_home.png.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/drawable/ic_home.png"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/drawable_ic_chair.png.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/drawable/ic_chair.png"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/layout_fragment_login.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/drawable_erorrbg_01.png.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/drawable/erorrbg_01.png"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/layout_item_product_type.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/layout/item_product_type.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/drawable_difirent.png.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/drawable/difirent.png"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/layout_dialogfragment_all_order.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/layout/dialogfragment_all_order.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/drawable_round_right_button.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/drawable/round_right_button.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/drawable_store.png.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/drawable/store.png"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/layout_item_all_product_for_order.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/layout/item_all_product_for_order.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/drawable_new_product.png.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/drawable/new_product.png"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/layout_item_cart.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/layout/item_cart.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/drawable_ic_login.png.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/drawable/ic_login.png"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/drawable_ic_cart.png.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/drawable/ic_cart.png"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/layout_fragment_infor_user.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/layout/fragment_infor_user.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/layout_fragment_buy_by_product_type.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/layout/fragment_buy_by_product_type.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/layout_dialogfragment_notification_by_type.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/layout/dialogfragment_notification_by_type.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/drawable_discount.png.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/drawable/discount.png"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/drawable_ic_heart_black.png.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/drawable/ic_heart_black.png"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/drawable_mua_shopping.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/drawable/mua_shopping.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/drawable_ic_favorite.png.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/drawable/ic_favorite.png"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/drawable_ic_user.png.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/drawable/ic_user.png"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/drawable_custom_tabs.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/drawable/custom_tabs.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/drawable_custom_search.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/drawable/custom_search.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/drawable_round_left_button.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/drawable/round_left_button.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/layout_fragment_search.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/layout/fragment_search.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/layout_fragment_user.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/layout/fragment_user.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/drawable_ic_right_arrow.png.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/drawable/ic_right_arrow.png"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/drawable_ic_brochure.png.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/drawable/ic_brochure.png"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/xml_http_network.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/xml/http_network.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/layout_dialogfragment_detail_product.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/layout/dialogfragment_detail_product.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/layout_dialogfragment_order.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/layout/dialogfragment_order.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/layout_fragment_banner.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/layout/fragment_banner.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/layout_fragment_buy.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/layout/fragment_buy.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/xml_backup_rules.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/font_font_family.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/font/font_family.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/font_robotocondensed_regular.ttf.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/font/robotocondensed_regular.ttf"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/layout_dialogfragment_cart.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/layout/dialogfragment_cart.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/drawable_edt.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/drawable/edt.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/drawable_ic_categorization.png.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/drawable/ic_categorization.png"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/drawable_ic_search.png.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/drawable/ic_search.png"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/layout_fragment_discount_dia_log.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/layout/fragment_discount_dia_log.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/drawable_background.jpg.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/drawable/background.jpg"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/layout_activity_login.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/layout_item_dropdown.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/layout/item_dropdown.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/drawable_radius_tren_phai_trai.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/drawable/radius_tren_phai_trai.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/drawable_nut_dang_nhap.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/drawable/nut_dang_nhap.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/drawable_login_gg.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/drawable/login_gg.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/drawable_shopping_bag.png.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/drawable/shopping_bag.png"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/layout_item_newproduct.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/layout/item_newproduct.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/layout_item_oder.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/layout/item_oder.xml"
+    },
+    {
+        "merged": "com.example.furniturebuyandsell.app-debug-41:/layout_fragment_buy.xml.flat",
+        "source": "com.example.furniturebuyandsell.app-main-43:/layout/fragment_buy.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/drawable_ic_left_arrow.png.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/drawable/ic_left_arrow.png"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/drawable_line_top_bot.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/drawable/line_top_bot.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/layout_item_notification.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/layout/item_notification.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/layout_fragment_forgot_pass.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/layout/fragment_forgot_pass.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/drawable_noi_that_1.jpg.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/drawable/noi_that_1.jpg"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/layout_item_all_productbytype.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/layout/item_all_productbytype.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/layout_activity_main.xml.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/drawable_ic_box.png.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/drawable/ic_box.png"
+    },
+    {
+        "merged": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-debug-41:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/q.vuong/.gradle/daemon/8.4/com.example.furniturebuyandsell.app-main-43:/mipmap-hdpi/ic_launcher_round.webp"
+    }
+]

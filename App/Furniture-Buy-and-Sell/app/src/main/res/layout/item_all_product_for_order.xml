@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:background="#EFEFEF"
+    android:padding="20dp"
+    tools:ignore="MissingConstraints">
+
+    <ImageView
+        android:id="@+id/img_product"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_namePr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Ghế"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/img_product"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="50x50"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/img_product"
+        app:layout_constraintTop_toBottomOf="@id/tv_namePr" />
+
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="2.500.000đ"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/img_product"
+        app:layout_constraintTop_toBottomOf="@id/tv_size" />
+
+    <TextView
+        android:id="@+id/tv_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:textColor="@color/black"
+        android:text=""
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/tv_price"
+        app:layout_constraintTop_toBottomOf="@id/tv_size" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

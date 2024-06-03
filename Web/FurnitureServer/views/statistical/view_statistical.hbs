@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/component/navigation.css" rel="stylesheet">
+    <link href="/css/component/breadcrumb.css" rel="stylesheet">
+    <link href="/css/pages/banner.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <style>
+        .parent {
+            display: flex;
+            /* Sử dụng flexbox để xếp các phần tử con */
+            flex-direction: row;
+            /* Xếp các phần tử con theo chiều ngang */
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .bg {
+            width: 20vw;
+            height: 10vh;
+            border-radius: 20px;
+            padding: 10px;
+            text-align: center;
+            border: 1px solid rgb(196, 196, 196);
+            box-shadow: 0px 0px 30px 5px rgb(196, 196, 196);
+            margin-right: 40px;
+        }
+
+        .quantity {
+            color: #F1F1F1;
+            font-size: 1.5em;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .title {
+            color: #F1F1F1;
+            font-size: 1em;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        {{#if successMessage}}
+        <div class="alert alert-success" role="alert">
+            {{successMessage}}
+        </div>
+        {{/if}}
+        {{#if dangerMessage}}
+        <div class="alert alert-danger" role="alert">
+            {{dangerMessage}}
+        </div>
+        {{/if}}
+
+
+
+        <h5 class="mb-4">Nội thất</h5>
+        <div class="parent">
+            <div class="bg-danger bg bd">
+                <p class="quantity">{{productCount}}</p>
+                <p class="title">Sản phẩm tồn kho</p>
+            </div>
+            <div class="bg-info bg bd">
+                <p class="quantity">{{totalQuantitySold}}</p>
+                <p class="title">Sản phẩm đã bán</p>
+            </div>
+            <div class="bg-secondary bg bd">
+                <p class="quantity">{{productTypeCount}}</p>
+                <p class="title">Loại sản phẩm</p>
+            </div>
+        </div>
+
+
+        <h5 class="mb-4">Đơn hàng</h5>
+        <div class="parent">
+            <div class="bg-primary bg bd">
+                <p class="quantity">{{orderCount}}</p>
+                <p class="title">Tổng đơn hàng</p>
+            </div>
+            <div class="bg-warning bg bd">
+                <p class="quantity">{{unconfirmed}}</p>
+                <p class="title">Chờ xác nhận</p>
+            </div>
+            <div class="bg-success bg bd">
+                <p class="quantity">{{confirmed}}</p>
+                <p class="title">Đã xác nhận</p>
+            </div>
+        </div>
+
+        <h5 class="mb-4">Doanh thu</h5>
+        <!-- Chọn năm để hiển thị doanh thu -->
+        <div class="mb-3">
+            <!-- Phần này sẽ được JavaScript tạo ra các tùy chọn năm -->
+            <label for="selectYear" class="form-label">Chọn năm:</label>
+            <select class="form-select" id="selectYear"></select>
+            <button class="btn btn-primary mt-2" onclick="updateRevenueChart()">Xem doanh thu</button>
+        </div>
+        <canvas id="revenueChart" width="800" height="400"></canvas>
+
+
+    </div>
+
+    <!-- Bao gồm jQuery từ CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Bao gồm Bootstrap JS từ CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        // Dữ liệu mẫu từ server (replace bằng dữ liệu thực tế)
+        /*const monthlyRevenueData = {
+            "2023-12": 9995789710,
+            "2024-1": 925789710,
+            "2024-2": 925789710,
+            "2024-3": 99888710,
+            "2024-4": 665789710
+        };*/
+        const monthlyRevenueData = {{{ monthlyRevenue }}};
+
+        // Lấy danh sách các năm từ dữ liệu monthlyRevenueData
+        const uniqueYears = new Set();
+
+        for (const key in monthlyRevenueData) {
+            const year = key.split('-')[0]; // Lấy năm từ key (VD: "2023-12" -> "2023")
+            uniqueYears.add(year); // Thêm năm vào Set để lọc ra các năm duy nhất
+        }
+
+        // Tạo các tùy chọn cho selectYear từ danh sách các năm duy nhất
+        const selectYear = document.getElementById('selectYear');
+
+        uniqueYears.forEach(year => {
+            const option = document.createElement('option');
+            option.value = year;
+            option.textContent = year;
+            selectYear.appendChild(option);
+        });
+
+        // Mặc định hiển thị năm cuối cùng trong danh sách năm làm năm được chọn ban đầu
+        selectYear.value = Array.from(uniqueYears)[uniqueYears.size - 1];
+
+        // Cập nhật biểu đồ khi nhấn nút "Xem doanh thu"
+        function updateRevenueChart() {
+            const selectedYear = document.getElementById('selectYear').value;
+            const filteredData = {};
+
+            // Lọc dữ liệu theo năm đã chọn
+            for (const key in monthlyRevenueData) {
+                if (key.startsWith(selectedYear)) {
+                    filteredData[key] = monthlyRevenueData[key];
+                }
+            }
+
+            // Cập nhật dữ liệu và vẽ lại biểu đồ
+            revenueChart.data.labels = Object.keys(filteredData);
+            revenueChart.data.datasets[0].data = Object.values(filteredData);
+            revenueChart.update();
+        }
+
+        // Tạo dữ liệu cho biểu đồ
+        const ctx = document.getElementById('revenueChart').getContext('2d');
+        const chartData = {
+            labels: Object.keys(monthlyRevenueData),
+            datasets: [{
+                label: 'Doanh thu theo tháng',
+                data: Object.values(monthlyRevenueData),
+                fill: false,
+                borderColor: 'rgba(75, 192, 192, 1)',
+                borderWidth: 2,
+                pointBackgroundColor: 'rgba(75, 192, 192, 1)',
+                pointRadius: 5,
+                pointHoverRadius: 8
+            }]
+        };
+
+        // Các tùy chọn của biểu đồ
+        const chartOptions = {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        };
+
+        // Vẽ biểu đồ Line Chart
+        const revenueChart = new Chart(ctx, {
+            type: 'line',
+            data: chartData,
+            options: chartOptions
+        });
+    </script>
+
+
+
+</body>
+
+</html>

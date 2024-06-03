@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="180dp"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:background="@drawable/edt"
+    android:layout_marginEnd="10dp"
+    app:cardCornerRadius="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_product"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp" />
+
+        <TextView
+            android:id="@+id/tv_namePr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="Bàn"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:padding="8dp">
+
+
+            <TextView
+                android:id="@+id/tv_priceProduct"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="7,000,000đ"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
+<!--            <ImageView-->
+<!--                android:id="@+id/img_favorite"-->
+<!--                android:layout_width="32dp"-->
+<!--                android:layout_height="32dp"-->
+<!--                android:src="@drawable/ic_favorite"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="parent"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                android:layout_marginEnd="8dp" />-->
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

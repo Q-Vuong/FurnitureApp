@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">471858611684-2o6u9u6c41dtrg2bsk6usgbg6sstifd6.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">471858611684</string>
+    <string name="google_api_key" translatable="false">AIzaSyAyz84kgkAd5MElQutoCoW9r9s34ODPNlA</string>
+    <string name="google_app_id" translatable="false">1:471858611684:android:0574bf605a7d5150f8b3f1</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAyz84kgkAd5MElQutoCoW9r9s34ODPNlA</string>
+    <string name="google_storage_bucket" translatable="false">furniture-buy-and-sell.appspot.com</string>
+    <string name="project_id" translatable="false">furniture-buy-and-sell</string>
+</resources>
